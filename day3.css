@@ -1,0 +1,102 @@
+body {
+    background-image: url(Images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.loginbox {
+    border-radius: 7.5px;
+    width: 950px;
+    height: 550px;
+    background-color: #f0f0f06c;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.loginbox .ET {
+    width: 450px;
+    height: 525px;
+    margin-right: 150px;
+    margin-left: -40px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+}
+
+.logindetails {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.logindetails label {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.logindetails input[type="text"],
+.logindetails input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 250px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.logindetails a.button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.logindetails a.button:hover {
+    background-color: #45a049;
+}
+
+.loginbox img {
+    padding-left: 45px;
+    width: 200px;
+    height: 200px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    margin-top: -48.5px;
+}
+
+.button-container a.button {
+    margin-top: 50px;
+    margin-right: 15px;
+}
+
+.button-container p {
+    font-size: 14px;
+}

@@ -1,0 +1,27 @@
+body{
+    background-color:rgba(0, 0, 0, 0.849)
+}
+.gif{
+    width: 35px;
+    height: 35px;
+}
+
+.intro{
+    color: cadetblue;
+}
+table , tr, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align:center;
+    padding:5px;
+
+}
+tr:nth-child(even){
+    background-color:rgba(191, 76, 0, 0.873)
+}
+tr:nth-child(odd){
+    background-color:rgba(95, 95, 95, 0.873);
+}
+tr:nth-child(1){
+    background-color:rgba(127, 255, 212, 0.893);
+}
